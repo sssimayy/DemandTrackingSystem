@@ -124,11 +124,11 @@ tr:nth-child(odd) {background: #FFF}
     );
 
     $kampanya = array(
-        "baslik" => "CANSU EKIN",
+        "baslik" => "******",
         "mesajlar" => $messages,
     );
 
-    $ch = curl_init('https://vairosms.com/Panel/api/v1/SmsGonder?api_key=5c1d1bbb78ca5_fkDtOAT9GoibTQ67');
+    $ch = curl_init('*********************************************************************');
     curl_setopt_array($ch, array(
         CURLOPT_POST => TRUE,
         CURLOPT_RETURNTRANSFER => TRUE,
