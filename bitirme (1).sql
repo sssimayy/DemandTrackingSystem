@@ -97,8 +97,8 @@ CREATE TABLE IF NOT EXISTS `dealers` (
 INSERT INTO `dealers` (`id`, `name`, `address`, `balance`, `route`, `taxnumber`, `authorizedPerson`, `status`, `phone_num`, `tax_address`) VALUES
 (1, 'test', '', 0, 'Güzergah 2', '', '', 0, '', ''),
 (2, 'test2', '', 1000, 'Güzergah 1', '', '', 0, '', ''),
-(3, 'Eren ', 'Subayevleri', 20, 'Güzergah 1', '0', 'Kemal', 0, '05370542149', 'sincan'),
-(4, 'Kardelen Büfe', 'eryaman', 20, 'Güzergah 2', '3', 'Kadir', 0, '05550207649', 'etimesgut'),
+(3, 'Eren ', 'Subayevleri', 20, 'Güzergah 1', '0', 'Kemal', 0, '', 'sincan'),
+(4, 'Kardelen Büfe', 'eryaman', 20, 'Güzergah 2', '3', 'Kadir', 0, '', 'etimesgut'),
 (6, 'Cavus', 'aktepe', 0, 'Güzergah 1', '0', 'Hilal', 1, '05331378748', 'çankaya');
 
 -- --------------------------------------------------------
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS `products` (
 INSERT INTO `products` (`id`, `name`, `status`) VALUES
 (1, 'Ekmek', 1),
 (2, 'Poğaça', 1),
-(3, 'Sandiviç', 1);
+(3, 'Sandviç', 1);
 
 -- --------------------------------------------------------
 
